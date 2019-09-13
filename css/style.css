@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.entry-header {
+    width: 678px;
+    margin: 0 auto;
+}
+
+.entry-title {
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+	padding: 0 1em;
+	color: rgba(0, 0, 0, 0.84);
+	font-weight: 400;
+	line-height: 48px;
+	font-size: 35px;
+}
+
+.aside {
+	position: fixed;
+	width: 135px; 
+	top: 120px;
+	margin-left: 160px;
+}
+
+header > a {
+	text-decoration: none;
+}
+
+.aside-header {
+	text-align: left;
+}
+
+.aside-intro {
+	text-align: left;
+	color: rgba(0, 0, 0, 0.54);
+	vertical-align: middle;
+}
+button {
+	font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+	padding: 0.3em 1em;
+	background: #fff;
+	color: rgba(201, 83, 153, 1);
+	border-radius: 5px;
+	margin: 10px 0;
+	cursor: pointer;
+	border: 1px solid rgba(201, 83, 153, 1);
+}
+
+button:hover {
+	color: rgba(201, 83, 153, 0.85);
+	border: 1px solid rgba(201, 83, 153, 0.85);
+}
+.clap-svg {
+	fill: rgba(201, 83, 153, 1);
+	cursor: pointer;
+}
+
+sup {
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0.54);
+}
+
+sup:hover {
+	color: rgba(0, 0, 0, 1);;
+}
+
+.clap-svg:hover {
+	fill: rgba(201, 83, 153, 0.8);
+
+}
+.bookmark-svg {
+	display: block; 
+	margin-top: 20px; 
+	fill: #000;
+	cursor: pointer;
+}
+
+.bookmark-svg:hover {
+	fill: rgba(0, 0, 0, 0.85);
+}
+
+hr {
+	margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .aside-header, .aside-intro, button, svg, .bookmark-svg, hr, sup
+  {
+  		display: none;
+  }
+}
+
+.image-container {
+ 	width: 80%;
+ 	text-align: center;
+ 	padding-left: 6em;
+}
+
+.image-content {
+	max-width: 700px; 
+}
+
+h2 {
+	padding: 0 0.85em;
+}
+
+.article {
+    padding-bottom: 30px;
+    width: 678px;
+    margin: 0 auto;
+}
+
+.article-intro {
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+	padding: 0 1em;
+	font-size: 1.25em;
+	letter-spacing: -0.004em;
+	line-height: 1.58;
+	color: rgba(0, 0, 0, 0.84)
+}
+
+a {
+	color: inherit;
+}
+
+ol{
+	padding-left: 0
+}
+
+li {
+	list-style-position: inside;
+	margin-bottom: 1em;
+}
+
+
